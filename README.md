@@ -6,7 +6,6 @@
 ---
 
 
-Competition hosted by [datadriven.org](https://www.drivendata.org/competitions/57/nepal-earthquake/)
 
 
 The main aim is to predict the level of damage to buildings caused by the 2015 Gorkha earthquake in Nepal based on aspects of building location and construction. The dataset used is ***Richter's Predictor: Modeling Earthquake Damage*** which is present in [datadriven.org](https://www.drivendata.org/competitions/57/nepal-earthquake/) competition. This data was collected by Kathmandu Living Labs and the Central Bureau of Statistics, and contains valuable information on earthquake impacts, household conditions, and socio-economic-demographic statistics.
