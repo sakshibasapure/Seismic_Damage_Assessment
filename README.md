@@ -27,9 +27,18 @@ Problem statement is to predict the ordinal variable **damage_grade**, which rep
 ### **Steps**
 1. Import Libraries and Dataset
 2. Exploratory Data Analysis
-3. Label Encoding 
-4. Outlier Removal using IQR
-5. Random Forest classifier with sampling techquines (SMOTE, TomekLinks, SMOTETomek, SMOTEENN)
+> * Check null and missing values
+> * Check unique values
+> * Visualization between features and class label
+3. Data Preproccesing
+> * Label Encoding 
+> * Outlier Removal using IQR
+4. Model Evaluation
+> * Random Forest without sampling
+> * Random Forest with SMOTE sampling
+> * Random Forest with TomekLins sampling
+> * Random Forest with SMOTETomek sampling
+> * Random Forest with SMOTE-ENN sampling
 
 To measure the performance of our algorithms, F1 score is used as it balances the precision and recall of a classifier. Traditionally, the F1 score is used to evaluate performance on a binary classifier, but since we have three possible labels we will use a variant called the micro averaged F1 score
 
